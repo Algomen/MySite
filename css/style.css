@@ -1,0 +1,25 @@
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.custom-circle {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%; /* Makes it circular */
+  object-fit: cover; /* Ensures content fits within the circular shape */
+}
+
+body {
+  background-color: #F6F4F0;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+/* footer {
+  background-color: #79D7BE;
+} */
